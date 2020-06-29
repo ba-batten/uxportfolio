@@ -17,6 +17,8 @@ let showNavLocation = function (url) {
   }
 }
 
+
+
 let placeFooter = function(url) {
   if (url.includes('index')) {
     document.getElementById('footer').classList.toggle('short-page-footer');
