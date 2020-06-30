@@ -4,11 +4,11 @@ let url = window.location.href.toString();
 // Function definitions
 let showNavLocation = function (url) {
 
-  if (url.includes('index')) {
-    document.getElementById('home').classList.toggle('nav-locator');
-  }
+  // if (url.includes('index')) {
+  //   document.getElementById('home').classList.toggle('nav-locator');
+  // }
 
-  else if (url.includes('projects')) {
+  if (url.includes('projects')) {
     document.getElementById('projects').classList.toggle('nav-locator');
   }
 
