@@ -31,4 +31,4 @@ let placeFooter = function(url) {
 showNavLocation(url);
 
 // Position footer on short pages
-placeFooter(url);
+// placeFooter(url);
