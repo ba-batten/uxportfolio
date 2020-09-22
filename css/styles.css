@@ -183,14 +183,14 @@ nav {
 }
 
 .nav-locator {
-  color: var(--pink-saturated);
-  font-weight: 600;
+  /* color: var(--pink-saturated); */
+  /* font-weight: 600; */
   text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
   .nav-locator {
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
 }
 
@@ -206,8 +206,6 @@ footer {
   background-color: var(--blue-dark);
   padding: 1rem 0 5rem;
   margin: 2rem 0 0;
-  position: relative;
-  bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -358,6 +356,9 @@ Projects components
 About components
 ********************************************/
 
+.about-me-wrapper {
+  margin-top: 14rem;
+}
 .about-contact-links-wrapper {
   margin: 1.5rem 0;
   font-size: 0.75rem;

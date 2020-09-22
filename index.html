@@ -12,67 +12,161 @@
     <title>Brandon Batten - Home</title>
   </head>
   <body>
-    <div class="minh-100">
 
-      <nav class="container-fluid">
-        <div class="container d-flex justify-content-center justify-content-md-between align-items-md-center">
-          <a href="index.html" class=" ">
-            <span class="nav-bbatten"><strong>Brandon Batten</strong> </span> <span class="nav-uxdesigner"> / UX Designer</span>
-          </a>
+    <nav class="container-fluid">
+      <div class="container d-flex justify-content-center justify-content-md-between align-items-md-center">
+        <a href="index.html" class=" ">
+          <span class="nav-bbatten"><strong>Brandon Batten</strong> </span> <span class="nav-uxdesigner"> / UX Designer</span>
+        </a>
 
-          <ul class="nav-links-list d-flex justify-content-around">
-            <li>
-              <a href="index.html" id="home" class="nav-link d-flex flex-column align-items-center py-2 nav-locator">
-                <span class="material-icons d-block d-md-none">home</span>
-                <span class="d-block nav-link-text">Home</span>
-              </a>
-            </li>
+        <ul class="nav-links-list d-flex justify-content-around">
+          <li>
+            <a href="index.html" id="home" class="nav-link d-flex flex-column align-items-center py-2 nav-locator">
+              <span class="material-icons d-block d-md-none">home</span>
+              <span class="d-block nav-link-text">Home</span>
+            </a>
+          </li>
 
-            <li>
-              <a href="projects.html" id="projects" class="nav-link d-flex flex-column align-items-center py-2">
-                <span class="material-icons d-block d-md-none">important_devices</span>
-                <span class="d-block nav-link-text">Projects</span>
-              </a>
-            </li>
+          <li>
+            <a href="#projects-list" id="projects" class="nav-link d-flex flex-column align-items-center py-2">
+              <span class="material-icons d-block d-md-none">important_devices</span>
+              <span class="d-block nav-link-text">Projects</span>
+            </a>
+          </li>
 
-            <li>
-              <a href="about.html" id="about" class="nav-link d-flex flex-column align-items-center py-2">
-                <span class="material-icons d-block d-md-none">info</span>
-                <span class="d-block nav-link-text">About</span>
-              </a>
-            </li>
+          <li>
+            <a href="#about-me" id="about" class="nav-link d-flex flex-column align-items-center py-2">
+              <span class="material-icons d-block d-md-none">info</span>
+              <span class="d-block nav-link-text">About</span>
+            </a>
+          </li>
 
-            <li>
-              <a href="https://drive.google.com/file/d/1YZ88cIBjisAwseu35FK5Is535icgh28z/view?usp=sharing" target="_blank" id="resume" class="nav-link d-flex flex-column align-items-center py-2">
-                <span class="material-icons d-block d-md-none">list_alt</span>
-                <span class="d-block nav-link-text">Resumé</span>
-              </a>
-            </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1YZ88cIBjisAwseu35FK5Is535icgh28z/view?usp=sharing" target="_blank" id="resume" class="nav-link d-flex flex-column align-items-center py-2">
+              <span class="material-icons d-block d-md-none">list_alt</span>
+              <span class="d-block nav-link-text">Resumé</span>
+            </a>
+          </li>
 
-          </ul>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Image and Card -->
+    <div class="container-fluid hero">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center flex-column">
+          <div class="col-10 col-md-6 portrait-wrapper d-flex justify-content-center">
+            <img src="assets/portrait.png" alt="Brandon Batten" class="img-fluid">
+          </div>
+          <div class="contact-card col-10 col-md-8 col-lg-6 d-flex flex-column align-items-center py-4">
+            <h1 class="text-center">Brandon Batten</h1>
+            <p class="text-center contact-card-role">UX Designer</p>
+            <div class="contact-card-text-wrapper">
+              <p class="text-center">I create wonderful user centered digital experiences for websites and apps.</p>
+            </div>
+            <a href="mailto:ba_batten@live.com" class="button-link">Contact Me</a>
+          </div>
         </div>
-      </nav>
+      </div>
+    </div>
 
-      <div class="container-fluid hero">
-        <div class="container">
-          <div class="row d-flex justify-content-center align-items-center flex-column">
-            <div class="col-10 col-md-6 portrait-wrapper d-flex justify-content-center">
-              <img src="assets/portrait.png" alt="Brandon Batten" class="img-fluid">
-            </div>
-            <div class="contact-card col-10 col-md-8 col-lg-6 d-flex flex-column align-items-center py-4">
-              <h1 class="text-center">Brandon Batten</h1>
-              <p class="text-center contact-card-role">UX Designer</p>
-              <div class="contact-card-text-wrapper">
-                <p class="text-center">I create wonderful user centered digital experiences for websites and apps.</p>
-              </div>
-              <a href="mailto:ba_batten@live.com" class="button-link">Contact Me</a>
-            </div>
+    <!-- About Me -->
+    <div class="container about-me-wrapper" id="about-me">
+      <div class="row">
+        <div class="col-12">
+          <h1>About Me</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <div class="d-flex justify-content-start about-contact-links-wrapper">
+            <a href="mailto:ba_batten@live.com" class="d-flex align-items-center mr-3"><span class="material-icons mr-1">email</span><span>ba_batten@live.com</span></a>
+            <a href="https://www.linkedin.com/in/brandonbatten/" class="d-flex align-items-center"><span class="fa fa-linkedin-square mr-1" style="font-size: 1.5rem"></span><span>brandonbatten</span></a>
+          </div>
+
+          <img src="assets/brandonportrait_landscape.jpg" alt="Brandon Batten" class="img-fluid mb-4 d-lg-none">
+          <div class="">
+            <p>I enjoy being creative, solving problems, and cool tech. Creating something
+              great from simply an idea gives me a rush. I built my first website as part
+              of my senior project in high school. Looking back, it was a  rough site,
+              but I learned a lot. I was introduced to HTML and how to publish a site.
+              I later studied to be a graphic designer in college and designed a few more
+              websites for various projects.
+            </p>
+            <p>
+              A lot has changed since I first built that website. I enjoyed a career
+              in finance but was never passionate about it. I harkened back to that
+              website I built years ago and my design background. I focused on improving
+              my web development skills and was ultimately able to combine my design and
+              development background into a UX design career with one of the largest
+              credit unions in the world.
+            </p>
+            <p>
+              My design philosophy is centered around those who will be using what I
+              design. If I fail to make users the focus, then my designs will ultimately
+              fail. Users should be involved from the very start of a new project.
+            </p>
+            <p>
+              I welcome new challenges and the opportunity to grow professionally and
+              personally.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-end mt-4">
+          <div class="about-img-wrapper d-none d-lg-block">
+            <img src="assets/brandonportrait_portrait.jpg" alt="Brandon Batten" class="img-fluid">
           </div>
         </div>
       </div>
 
+    </div> <!-- End Container -->
+
+    <!-- Projects -->
+  <div class="container" id="projects-list">
+    <div class="row mt-4 mb-5">
+      <div class="col-12">
+        <h1>Projects</h1>
+      </div>
     </div>
-    <footer id="footer" class="container-fluid d-flex flex-column align-items-center" style="bottom: -6rem">
+
+    <div class="row">
+
+      <div class="col-12 mb-5 mortgages-wrapper">
+        <a href="projects/mortgages.html" class="d-flex flex-column align-items-center project-card bg-gradient-teal p-3 p-lg-5">
+          <h2 class="mb-3 color-blue">SECU Mortgages</h2>
+          <img src="assets/mortgages-screenshot.png" alt="Screenshot of mortgages design" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-12 col-md-6 mb-5">
+        <a href="projects/pagetemplate.html" class="d-flex flex-column align-items-center project-card bg-gradient-pink p-3">
+          <h2 class="mb-3 color-blue">SECU Page Template</h2>
+          <img src="assets/template-screenshot.png" alt="Screenshot of template design" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-12 col-md-6 mb-5 d-none">
+        <a href="projects/mobileapp.html" class="d-flex flex-column align-items-center project-card bg-gradient-blue p-3">
+          <h2 class="mb-3 color-blue">SECU Mobile App</h2>
+          <img src="assets/mobile-app-screenshot.png" alt="Screenshot of mobile app" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-12 col-md-6 mb-5">
+        <a href="projects/fatcat.html"class="d-flex flex-column align-items-center project-card bg-gradient-orange p-3">
+          <h2 class="mb-3 color-blue">Fat Cat Redesign</h2>
+          <img src="assets/fatcat-screenshot.png" alt="Screenshots of Fat Cat redesign" class="img-fluid">
+        </a>
+      </div>
+
+    </div>
+
+  </div> <!-- End Container -->
+
+
+    <footer id="footer" class="container-fluid d-flex flex-column align-items-center">
       <p class="text-center">Let's get in touch.</p>
       <div class="d-flex justify-content-around contact-wrapper">
         <a href="mailto:ba_batten@live.com" class="d-flex align-items-center"><span class="material-icons mr-1">email</span><span>ba_batten@live.com</span></a>
